@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search
+{
+    width: 2%;
+}
+.notification_bell
+{
+    width: 5%;
+}
+.admin
+{
+    width: 5%;
+}
+/* .search_bar
+{
+    position: relative;
+} */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2px;
+}
+main
+{
+    display: flex;
+    margin: 10px;
+    margin-left:30px;
+}
+.sidebar
+{
+    width: 10%;
+}
+.sidebar img
+{
+    width: 40px;
+}
+.opt1,.opt2,.opt3,.opt4,.opt5,.opt6,.opt7
+{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+.opt1:hover,.opt2:hover,.opt3:hover,.opt4:hover,.opt5:hover,.opt6:hover,.opt7:hover
+{
+    background-color:rgb(205, 172, 255);
+}
+.hamburger
+{
+    width: 5px;
+    height: 10px;
+}
+.main-content
+{
+    background-color: #cfcfff;
+    width: 90%;
+    height: 70vh;
+    margin: 10px;
+    overflow-y: scroll;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left:100px;
+    margin-top: 25px;
+    gap: 20px;
+}
+.card1,.card2,.card3,.card4
+{
+    display: flex;
+    background-color:#0947ffa4 ;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.recent_article
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.recent_article header
+{
+    border-bottom: 5px solid rgb(108, 87, 108);
+}
+@media only screen and (max-width: 1550px) {
+    .cards
+    {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .sidebar
+    {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1342px) {
+    .sidebar
+    {
+        font-size: 10px;
+    }
+    .sidebar img
+    {
+        width: 30px;
+    }
+    .opt1,.opt2,.opt3,.opt4,.opt5,.opt6,.opt7
+{
+    gap: 10px;
+}
+}
+
+@media only screen and (max-width: 970px) {
+    .sidebar
+    {
+        font-size: 9px;
+    }
+    .sidebar img
+    {
+        width: 25px;
+    }   
+    .opt1,.opt2,.opt3,.opt4,.opt5,.opt6,.opt7
+    {
+        gap: 5px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .cards
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        position: relative;
+        left: 5%;
+    }
+    .sidebar
+{
+    width: 20%;
+}
+.sidebar
+{
+    font-size: 15px;
+}
+.sidebar img
+{
+    width: 30px;
+}   
+    .opt1,.opt2,.opt3,.opt4,.opt5,.opt6,.opt7
+    {
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 632px)
+{
+    
+}
+
+
